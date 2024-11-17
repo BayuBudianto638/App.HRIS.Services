@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.HRIS.Services", "App.HRIS.Services\App.HRIS.Services.csproj", "{F0A0C43D-8321-40FC-802D-D3BB081700D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.HRIS.Services.AppHost", "App.HRIS.Services.AppHost\App.HRIS.Services.AppHost.csproj", "{7F0E7F4E-FC0E-4112-9534-6C670136261A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.HRIS.Services.ServiceDefaults", "App.HRIS.Services.ServiceDefaults\App.HRIS.Services.ServiceDefaults.csproj", "{69D229AB-156C-4831-A3DE-388C32EA3CF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{427E29CF-6B4A-40A3-96B6-3887198ADC63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{CFB89148-404D-4DBF-8C09-EFBA2BDB1538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.HRIS.Services.EmployeeServices", "App.HRIS.Services.EmployeeServices\App.HRIS.Services.EmployeeServices.csproj", "{0CFBF209-C40C-41D9-9218-645ED56FF5CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationLibs", "AuthorizationLibs\AuthorizationLibs.csproj", "{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A0C43D-8321-40FC-802D-D3BB081700D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A0C43D-8321-40FC-802D-D3BB081700D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A0C43D-8321-40FC-802D-D3BB081700D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A0C43D-8321-40FC-802D-D3BB081700D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0E7F4E-FC0E-4112-9534-6C670136261A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0E7F4E-FC0E-4112-9534-6C670136261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0E7F4E-FC0E-4112-9534-6C670136261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0E7F4E-FC0E-4112-9534-6C670136261A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D229AB-156C-4831-A3DE-388C32EA3CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D229AB-156C-4831-A3DE-388C32EA3CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D229AB-156C-4831-A3DE-388C32EA3CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D229AB-156C-4831-A3DE-388C32EA3CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFBF209-C40C-41D9-9218-645ED56FF5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFBF209-C40C-41D9-9218-645ED56FF5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFBF209-C40C-41D9-9218-645ED56FF5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFBF209-C40C-41D9-9218-645ED56FF5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CFBF209-C40C-41D9-9218-645ED56FF5CB} = {427E29CF-6B4A-40A3-96B6-3887198ADC63}
+		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0} = {CFB89148-404D-4DBF-8C09-EFBA2BDB1538}
+	EndGlobalSection
+EndGlobal

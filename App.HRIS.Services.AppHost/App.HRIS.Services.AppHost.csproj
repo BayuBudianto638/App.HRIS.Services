@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>f8676ced-0779-4d50-b6b9-5c174bedfb14</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.HRIS.Services.EmployeeServices\App.HRIS.Services.EmployeeServices.csproj" />
+    <ProjectReference Include="..\App.HRIS.Services\App.HRIS.Services.csproj" />
+  </ItemGroup>
+
+</Project>
