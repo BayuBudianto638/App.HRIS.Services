@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\App.HRIS.Entities\App.HRIS.Entities.csproj" />
     <ProjectReference Include="..\App.HRIS.Services.EmployeeServices\App.HRIS.Services.EmployeeServices.csproj" />
     <ProjectReference Include="..\App.HRIS.Services\App.HRIS.Services.csproj" />
   </ItemGroup>

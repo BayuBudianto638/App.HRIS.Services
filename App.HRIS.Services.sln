@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.HRIS.Services.EmployeeS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationLibs", "AuthorizationLibs\AuthorizationLibs.csproj", "{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.HRIS.Entities", "App.HRIS.Entities\App.HRIS.Entities.csproj", "{567E64CC-D8F4-4EF4-B046-29249925BC43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AEFF5AC-7810-408C-AC7F-EC4DFB7B1FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567E64CC-D8F4-4EF4-B046-29249925BC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567E64CC-D8F4-4EF4-B046-29249925BC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567E64CC-D8F4-4EF4-B046-29249925BC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567E64CC-D8F4-4EF4-B046-29249925BC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
