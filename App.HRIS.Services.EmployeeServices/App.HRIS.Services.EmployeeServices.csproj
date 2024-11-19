@@ -14,11 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\App.HRIS.Entities\App.HRIS.Entities.csproj" />
     <ProjectReference Include="..\App.HRIS.Services.ServiceDefaults\App.HRIS.Services.ServiceDefaults.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
 </Project>

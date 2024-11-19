@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\App.HRIS.Entities\App.HRIS.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
